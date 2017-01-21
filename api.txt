@@ -1,0 +1,126 @@
+
+
+Live_Streaming api:
+
+{
+	"livestreaming": [
+		{
+                        "match_name" = Ind vs Eng    
+			"urlList": [
+				{
+					"type": "1",
+					"url": "www.cricket.com"
+		 		{
+					"type": "2",
+					"url": "www.cricket.com"
+				}
+			]
+		},
+                {
+                        "match_name" = Ind vs Eng 
+			"urlList": [
+				{
+					"type": "1",
+					"url": "www.cricket.com"
+				},
+				{
+					"type": "2",
+					"url": "www.cricket.com"
+				}
+			]
+		}
+]
+}
+
+Live_Score:
+
+{
+	"livescrore": [
+		{
+                        "match_type" = International
+			"urlList": [
+				{
+					"title": "BAN VS NZ",
+					"url": "www.cricket.com",
+                                       
+
+				},
+				{
+					"title": "BAN VS NZ",
+					"url": "www.cricket.com",
+                                        
+				}
+			]
+		},
+                {
+                        "match_type" = Domestic
+			"urlList": [
+				{
+					"title": "BAN VS NZ",
+					"url": "www.cricket.com"
+                                        
+				},
+				{
+					"title": "BAN VS NZ",
+					"url": "www.cricket.com"
+                                        
+				}
+			]
+		}
+]
+}
+
+Highlights:
+
+{
+      "highlights": [{
+		"title": "100 by sabbir",
+		"type": "1",
+                "url":  "www",
+                 "imageurl": "www.image"
+	},
+	{
+		"title": "100 by sabbir",
+		"type": "1",
+                "url":  "www"
+              "imageurl": "www.image"
+	}
+]
+}
+
+News:
+
+{
+      "news": [{
+		"title": "100 by sabbir",
+		"imageurl": "www.image",
+                "description":  "someting",
+                "publishTime" "27-jan-2017 19.00GMT"
+	},
+	{
+		"title": "100 by sabbir",
+		"imageurl": "www.image",
+                "description":  "someting",
+                "publishTime" "27-jan-2017 19.00GMT"
+	}
+    ]
+}
+
+Schedule:
+{
+      "schedule": [{
+		"title": "Ban vs Eng",
+		"venue": "mirpur",
+                "match_time" "27-jan-2017 19.00GMT"
+	},
+	{
+		"title": "100 by sabbir",
+		"venue": "mirpur",
+                "match_time" "27-jan-2017 19.00GMT"
+	}
+     ]
+}
+
+Notification:
+Rangking: As discusion 
+
