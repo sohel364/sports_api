@@ -3,8 +3,13 @@
 
 <div id="page-wrapper">
 	<div class="row">
-		<div class="col-lg-12">
+		<div class="col-lg-6 col-lg-offset-2">
 	        <!-- <h1 class="page-header">Forms</h1> -->
+	        <?php
+	        	$flag = isset($_REQUEST['flag']) ? "You can not left any field" : null;
+	        	if($flag != null)
+	        		echo '<p class="text-center text-danger">'.$flag.'</p>';
+	        ?>
 	        <hr>
 	    </div>
 	</div>
@@ -17,22 +22,22 @@
 	            <div class="panel-body">
 	            	<div class="row">
 	            		<div class="col-lg-12 col-md-12 ">
-				            <form role="form" action="#" method="POST">
+				            <form role="form" action="../model/DB.php?flag=news" method="POST">
 				                <div class="form-group">
 				                    <label class="control-label" for="inputSuccess">News Title</label>
-				                    <input type="text" class="form-control" id="inputSuccess">
+				                    <input type="text" class="form-control" name="title" id="inputSuccess">
 				                </div>
 				                <div class="form-group">
 				                    <label class="control-label" for="inputWarning">Image URL</label>
-				                    <input type="text" class="form-control" id="inputWarning">
+				                    <input type="text" class="form-control" name="imageurl" id="inputWarning">
 				                </div>
 				                <div class="form-group">
 				                    <label class="control-label" for="inputError">Description</label>
-				                    <input type="text" class="form-control" id="inputError">
+				                    <input type="text" class="form-control" name="description" id="inputError">
 				                </div>
 				                <div class="form-group">
 				                    <label class="control-label" for="inputError">PublishTime</label>
-				                    <input type="text" class="form-control" id="inputError">
+				                    <input type="text" class="form-control" name="publishTime" id="inputError">
 				                </div>
 				                <div  style="text-align:center">
 				                	<input type="submit" class="btn btn-primary" value="Submit">
